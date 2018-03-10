@@ -1,0 +1,32 @@
+.NoteAdd {
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+  border: 3px dashed gray;
+}
+
+.NoteAdd_name {
+  width: 30%;
+  padding: 3px;
+  display: block;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.NoteAdd_content {
+  width: 100%;
+  padding: 3px;
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.NoteAdd_addButton {
+  display: block;
+  margin: 10px 0 0 auto;
+  box-sizing: border-box;
+}

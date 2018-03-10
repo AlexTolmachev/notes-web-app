@@ -1,0 +1,27 @@
+.Note {
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+  border: 3px dashed gray;
+}
+
+.Note_name {
+  color: gray;
+  font-size: 1.2rem;
+  margin-bottom: 10px; 
+}
+
+.Note_deleteButton {
+  top: 3px;
+  right: 3px;
+  color: gray;
+  cursor: default;
+  font-size: 1.3rem;
+  line-height: 100%;
+  position: absolute;
+}
+
+.Note_deleteButton:hover {
+  color: red;
+}
